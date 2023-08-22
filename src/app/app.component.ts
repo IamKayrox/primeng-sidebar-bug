@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'primeng-test';
+  public sidebarOpen = false;
+
+  public openSidebar() {
+    this.sidebarOpen = true;
+  }
 }
